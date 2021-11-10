@@ -1,0 +1,231 @@
+
+/* ==================================== */
+/* Parámetros de reseteo de margenes y padding */
+/* ==================================== */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ==================================== */
+/* Sección con los parámetros de CSS de los tags principales */
+/* ==================================== */
+
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background-color: rgb(211, 216, 216);
+    margin: auto;
+}
+
+h1 {
+    font-size: 42px;
+    color:rgb(2, 107, 2);
+}
+
+h2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+/* ==================================== */
+/* Sección con los parámetros de CSS de las clases
+utilizadas en el index */
+/* ==================================== */
+
+.hacheunoPosition {
+    display: flex;
+    margin-left: 180px;
+}
+
+.headerCompleto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(243, 234, 181);
+    border: 2px solid rgb(218, 198, 88);
+}
+
+.headerCompleto img {
+    border-radius: 50%;
+}
+
+#arriba {
+    margin-left: 30px;
+}
+
+.listayInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listayInput ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.listayInput ul li {
+    padding: 10px;
+}
+
+.inputPosition {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.navHeader ul li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.divListaSecciones ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: auto;
+}
+
+.divListaSecciones ul li {
+    width: 120px;
+    margin: 30px;
+    padding: 4px;
+    background-color: rgb(241, 205, 151);
+    border: 2px solid rgb(255, 226, 61);
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type: none;
+}
+
+.divListaSecciones ul a {
+    text-decoration: none;
+}
+
+
+.catalogoAlfabetico ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4px;
+    background-color: rgb(207, 231, 231);
+    margin: 20px;
+    border: 2px solid rgb(167, 162, 162);
+}
+
+.catalogoAlfabetico li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bestSellers {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.sectionGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 30px;
+    justify-content: center;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.sectionGrid button {
+margin-left: 42px;
+margin-top: 5px;
+padding: 3px;
+background-color: rgb(240, 222, 196);
+}
+
+.piedePagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 234, 181);
+    padding: 5px;
+}
+
+.abajo {
+    display: flex;
+    margin-left: 60px;
+}
+.abajo img {
+    border-radius: 50%;
+}
+
+.piedePagina div h3 {
+    margin-left: 150px;
+}
+
+.piedePagina div a {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 2px;
+}
+
+/* ==================================== */
+/* En esta seccion estan los colores de los links
+    de las distintas listas del index */
+/* ==================================== */
+
+.linkHeader {
+    color: rgb(161, 72, 161);
+}
+
+.linkLibros {
+    color: rgb(148, 69, 5);
+}
+
+.linkCatalogo {
+    color: blue;
+}
+
+/* ==================================== */
+/* En esta seccion estan los colores de los h1
+    de las paginas secundarias */
+/* ==================================== */
+
+.ciencia {
+    color: gray;
+}
+
+.filosofia {
+    color: indianred;
+}
+
+.historia {
+    color: rgb(94, 7, 156);
+}
+
+.novelas {
+    color: rgb(187, 124, 8);
+}
+
+.suspenso {
+    color: rgb(153, 131, 5);
+}

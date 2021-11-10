@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <!-- meta tags -->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- links de Google fonts importadas -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,
+        500;1,100;1,300;1,500&display=swap" rel="stylesheet">
+
+        <!-- link al archivo main.css -->
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- título del sitio -->
+
+        <title>Libreria Digital</title>
+
+    </head>
+
+    <body>
+
+        <!-- =============================
+        =============================== -->
+        <!-- En esta sección esta el código para el HEADER.
+        Esta organizado con los elementos "logo", título del
+        sitio, una lista con links y un botón de búsqueda.
+        Estos tags estan todos adentro de un "div contenedor"
+        (div class="headerCompleto") que tiene display "flex".
+        A su vez, en la lista del HEADER hay otro div con un
+        flex "anidado" (div class="listayInput")para colocar
+        los "li" de los links en forma horizontal.
+        El div class="container" esta colocado como un "contenedor"
+        general del body para reducir un poco su viewport -->
+        <!-- =============================
+        =============================== -->
+
+        <div class="container">   <!-- apertura del DIV CONTENEDOR GENERAL del body -->
+
+        <header>
+        <div class="headerCompleto"> <!-- apertura del DIV CONTENEDOR GENERAL del header -->
+
+        <img id="arriba" src="public/img/logo_lib.jpeg" alt="logo de la empresa" width="50" height="50">
+
+        <div>
+            <h1 class="hacheunoPosition">Libreria Digital</h1>
+        </div>
+
+        <nav>
+
+        <div class="listayInput">
+            <ul>
+                <li><a class="linkHeader" href="http://www.abclibrerias.com.ar" target="_blank">Casa Central</a></li>
+                <li><a class="linkHeader" href="public/img/catalogo.pdf" target="_blank">Catalogo</a></li>
+                <li><a class="linkHeader" href="#contacto">Contacto</a></li>
+            </ul>
+        <input class="inputPosition" type="search" placeholder="Busqueda por titulo">
+        </div>
+
+        </nav>
+        </div>  <!-- cierre del DIV CONTENEDOR GENERAL del header -->
+        </header>
+
+
+        <!-- =============================
+        =============================== -->
+        <!-- Aquí comienza el  MAIN del sitio.
+        En esta parte del main se incluye una
+        lista con links a páginas secundarias.
+        El ul esta adentro de un div contenedor
+        (div class="divListaSecciones") y se
+        utilizó display FLEX para obtener el
+        posicionamiento horizontal de los links. -->
+        <!-- =============================
+        =============================== -->
+
+        <main>
+        <div class="divListaSecciones">
+            <ul>
+                <li><a class="linkLibros" href="#">Novelas</a></li>
+                <li><a class="linkLibros" href="#">Ciencia Ficción</a></li>
+                <li><a class="linkLibros" href="#">Suspenso</a></li>
+                <li><a class="linkLibros" href="#">Filosofia</a></li>
+                <li><a class="linkLibros" href="#">Historia</a></li>
+            </ul>
+        </div>
+
+        <!-- =============================
+        =============================== -->
+        <!-- A continuación una lista que incluye
+        links por órden alfabético a todos los libros
+        ofrecidos en el sitio.
+        Todos los links estan en una lista y adentro de
+        un mismo contenedor (div class="catalogoAlfabetico")
+        que tiene display FLEX para lograr el posicionamiento
+        horizontal -->
+        <!-- =============================
+        =============================== -->
+
+        <h2>Listado de títulos por órden alfabético</h2>
+
+        <nav>
+        <div class="catalogoAlfabetico">
+            <ul>
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">D</a></li>
+                <li><a href="#">E</a></li>
+                <li><a href="#">F</a></li>
+                <li><a href="#">G</a></li>
+                <li><a href="#">H</a></li>
+                <li><a href="#">I</a></li>
+                <li><a href="#">J</a></li>
+                <li><a href="#">K</a></li>
+                <li><a href="#">L</a></li>
+                <li><a href="#">M</a></li>
+                <li><a href="#">N</a></li>
+                <li><a href="#">O</a></li>
+                <li><a href="#">P</a></li>
+                <li><a href="#">Q</a></li>
+                <li><a href="#">R</a></li>
+                <li><a href="#">S</a></li>
+                <li><a href="#">T</a></li>
+                <li><a href="#">U</a></li>
+                <li><a href="#">V</a></li>
+                <li><a href="#">W</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Y</a></li>
+                <li><a href="#">Z</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <!-- =============================
+        =============================== -->
+        <!-- Esta es la última parte del MAIN e
+        incluye una serie de libros Best Seller.
+        Estos libros estan contenidos todos en un
+        div (div class="bestSellers") y se utilizó
+        display GRID -->
+        <!-- =============================
+        =============================== -->
+
+        <section>
+
+        <div class="bestSellers">
+            <h2>Best Sellers</h2>
+        </div>
+
+        <div class="sectionGrid"> <!-- apertura del DIV CONTENEDOR GENERAL de sección BEST SELLER -->
+
+        <div>
+            <img src="public/img/libro_1.jpeg" alt="Best Seller 1" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_2.jpeg" alt="Best Seller 2" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_3.jpeg" alt="Best Seller 3" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_4.jpeg" alt="Best Seller 4" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_5.jpeg" alt="Best Seller 5" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_6.jpeg" alt="Best Seller 6" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_7.jpeg" alt="Best Seller 7" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        <div>
+            <img src="public/img/libro_8.jpeg" alt="Best Seller 8" width="150" height="150">
+            <button class="buttonCenter">Comprar</button>
+            <p>Bla bla bla bla sobre el libro</p>
+        </div>
+
+        </div>  <!-- cierre del DIV CONTENEDOR GENERAL de sección BEST SELLER -->
+        </section>
+        </main>
+
+        <!-- =============================
+        =============================== -->
+        <!-- Aquí viene el "footer" que incluye el logo
+        de la empresa, mención al copyright y datos de contacto.
+        Todos los elementos del footer estan adentro de un
+        div contenedor (div class="piedePagina") y se utilizó
+        display FLEX para lograr el posicionamiento horizontal -->
+        <!-- =============================
+        =============================== -->
+
+        <footer class="piedePagina">
+        <div class="abajo">
+            <img id="contacto" src="public/img/logo_lib.jpeg"
+            alt="logo de la empresa" width="50" height="50">
+        </div>
+
+        <div>
+            <h3>Libreria Digital © 2021</h3>
+        </div>
+
+        <div>
+            <a href="mailto:LD@ld.com.ar">LD@ld.com.ar</a>
+            <a href="#arriba">Volver a arriba</a>
+        </div>
+
+        </footer>
+
+        </div> <!-- cierre del DIV CONTENEDOR GENERAL del body -->
+    </body>
+</html>
